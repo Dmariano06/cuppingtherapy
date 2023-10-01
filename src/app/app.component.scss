@@ -1,0 +1,132 @@
+
+body{
+    background: linear-gradient(180deg, #FFFCF8 4.17%, #FCF5F1 97.4%);
+}
+ul{
+    margin-left: 33%;
+}
+nav{
+    background: transparent;
+    a{
+        color: #FFF;
+        text-align: center;
+        font-family: Kalam;
+        font-size: 24px;
+}
+
+}
+.container{
+
+    li{
+        margin-left: 35px;
+    }
+}
+#brand{
+        color: #68371D;
+        font-size: 32px;
+}
+#rdv{
+    padding: 3px;
+  
+    background-color:#E8BD9B;
+    -webkit-filter : blur(2px); /* Chrome, Safari, Opera */
+  filter : blur(2px);
+    border-radius: 5px;
+    transition: ease-in-out 0.5s;
+    a{
+    color: #68371D;
+    }
+}
+#rdv:hover{
+    background-color: transparent;
+    box-shadow: 1px 1px 1px black;
+        -webkit-filter : blur(0px); /* Chrome, Safari, Opera */
+        filter : blur(0px);
+        a{
+            color: white;
+        }
+        transition: ease-in-out 0.5s;
+}
+.cover{
+    height:100vh;
+    background-image: url('../assets/accueil\ site.jpg');
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-family: Kalam;
+    font-size: 58px;
+    margin-top: 15%;
+}
+.center-btn{  
+    padding: 3px;
+    color: #68371D;
+    background-color:transparent;
+    border-radius: 5px;
+    transition: ease-in-out 0.3s;
+    padding: 15px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.center-btn:hover{
+    background-color:#68371D;
+        color: #E8BD9B;
+        transition: ease-in-out 0.3s;
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    h4{
+        text-align: center;
+       
+    }
+    color: #68371D;
+    .footer{
+        display: flex;
+        width: 100%;
+    }
+    h6{
+      margin-left: 55%;
+    }
+}
+
+.button-92 {
+    --c: #fff;
+    /* text color */
+    background: linear-gradient(90deg, #0000 33%, #fff5, #0000 67%) var(--_p,100%)/300% no-repeat,
+    transparent;
+    /* background color */
+    color: #0000;
+    border: none;
+    transform: perspective(500px) rotateY(calc(20deg*var(--_i,-1)));
+    text-shadow: calc(var(--_i,-1)* 0.08em) -.01em 0   var(--c),
+      calc(var(--_i,-1)*-0.08em)  .01em 2px #0004;
+    outline-offset: .1em;
+    transition: 0.3s;
+    border-radius: 5px;
+  }
+  
+  .button-92:hover,
+  .button-92:focus-visible {
+    --_p: 0%;
+    --_i: 1;
+  }
+  
+  .button-92:active {
+    text-shadow: none;
+    color: var(--c);
+    box-shadow: inset 0 0 9e9q #0005;
+    transition: 0s;
+  }
+  
+  .button-92 {
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 0;
+    cursor: pointer;
+    padding: .1em .3em;
+  }

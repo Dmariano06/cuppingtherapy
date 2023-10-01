@@ -1,1 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Roboto:wght@300;400;500&display=swap');
+*{
+    font-family: Kalam;
+
+}
+main{
+    background: linear-gradient(180deg, #FFFCF8 4.17%, #FCF5F1 97.4%);
+}
